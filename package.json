@@ -1,12 +1,22 @@
 {
   "name": "CorinthiansAPI",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a fan-project to provide some data about the brazillian soccer team SCCP Corinthians",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "API",
+    "node",
+    "javascript"
+  ],
+  "author": "Pedro Abreu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
