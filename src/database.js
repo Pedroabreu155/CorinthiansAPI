@@ -1,6 +1,6 @@
-const firebase = require('firebase')
-const configs = require('./config')
+// const firebase = require('firebase')
+// const configs = require('./config')
 
-const db = firebase.initializeApp(configs.firebaseConfig)
+// const db = firebase.initializeApp(configs.firebaseConfig)
 
-module.exports = db
+// module.exports = db
