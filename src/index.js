@@ -15,7 +15,7 @@ app.listen(3000, () => {
 })
 
 app.get("/", (request, response) => {
-  response.send("Bem vindo a CorinthiansAPI")
+  response.json({Hello: "Bem vindo a CorinthiansAPI"})
 })
 
 const corinthiansRoutes = require('./routes/corinthians-routes')
