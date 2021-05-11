@@ -15,6 +15,7 @@ app.get("/", (request, response) => {
 })
 
 const corinthiansRoutes = require('./routes/corinthians-routes')
+
 app.use("/api", corinthiansRoutes.routes)
 
 app.listen(port, () => {
