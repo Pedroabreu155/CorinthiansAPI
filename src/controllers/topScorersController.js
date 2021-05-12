@@ -3,7 +3,7 @@ const firestore = firebase.firestore()
 
 const TopScorers = require('../models/TopScorers')
 
-const getAllTopScorers = async () => {
+const getAllTopScorers = async (request, response) => {
   try {
     const topScorers = await firestore.collection('artilheiros')
     const data = await topScorers.get()
