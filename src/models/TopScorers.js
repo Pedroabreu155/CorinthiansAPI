@@ -1,7 +1,8 @@
 class TopScorers {
-  constructor(artilheiros, observacoes){
-    this.artilheiros = artilheiros
+  constructor(observacoes, artilheiros){
     this.observacoes = observacoes
+    this.artilheiros = artilheiros
+
   }
 }
 
