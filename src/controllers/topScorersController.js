@@ -14,7 +14,8 @@ const getAllTopScorers = async (request, response) => {
     } else{
       data.forEach(doc => {
         const topScorers = new TopScorers(
-          doc.data().artilheiros
+          doc.data().artilheiros,
+          doc.data().observacoes
         )
         
         allTopScorers.push(topScorers)
