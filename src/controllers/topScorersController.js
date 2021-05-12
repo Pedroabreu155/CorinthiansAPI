@@ -10,7 +10,6 @@ const getAllTopScorers = async (request, response) => {
     const allTopScorers = []
 
     if(data.empty){
-      //tratando erro de não retornar nada, assim não quebra o front
       response.status(200).send([])
     } else{
       data.forEach(doc => {
